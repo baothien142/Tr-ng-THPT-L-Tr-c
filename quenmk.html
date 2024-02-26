@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+    <style>
+      body{
+         background-color:  rgb(84,173,212);
+         background-size: cover; 
+       }
+      .wraper{
+        min-height: 400px;
+        position: absolute;
+        top:  120px;
+        right: 100px;
+      }
+      #formlogin{
+        width: 300px;
+        height: 380px;
+        background-color: rgba(0,0,0,0.8);
+        padding: 30px 40px;
+        box-shadow: 0px 0px 17px 2px white;
+      }
+      h1{
+        text-align: center;
+        color: white;
+        font-size: 30px;
+        margin-bottom: 30px;
+      }
+      .grounp{
+        border-bottom: 1px solid white;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        display: flex;
+      }
+      .in{
+        background: transparent;
+        border: 0;
+        outline: 0;
+        color: white;
+        flex-grow: 1;
+      }
+      #check{
+        color: white;
+        padding: 10px;
+      }
+      .control{
+        background: transparent;
+        border: 1px solid white;
+        color: white;
+        width: 100%;
+        text-transform: uppercase;
+        padding: 10px 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      .control:hover{
+        border: 1px solid rgb(11, 62, 228);
+      }
+    </style>
+</head>
+<body>
+   <div class="wraper">
+    <form id="formlogin"> 
+        <h1>REGISTER</h1>
+        
+         <div class="grounp">
+          <input type="text" placeholder="Họ Và Tên" class="in"> 
+         </div> 
+
+         <div class = "grounp">
+            <input type="text" placeholder="Số di động hoặc email" class="in">
+        </div>
+
+        <div class = "grounp">
+            <input type="password" placeholder="Mật khẩu" class="in">
+        </div>
+        
+        <div class = "grounp">
+            <input type="password" placeholder="Nhập lại mật khẩu" class="in">
+        </div>
+
+        <div class = "grounp">
+            <input type="date" placeholder="Ngày sinh" class="in">
+        </div>
+
+
+         
+           <label id="check">
+            <input type="checkbox">
+            Remember me
+          </label> <br>
+          
+         <button class="control">REGISTER</button> 
+    </form>
+   </div>
+</body>
+</html>

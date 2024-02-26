@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quên mật khẩu</title>
+    <style>
+         body{
+         background-color:  rgb(84,173,212);
+         background-repeat: no-repeat; 
+       }
+      .wraper{
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #formlogin{
+        width: 300px;
+        background-color: rgba(0,0,0,0.8);
+        padding: 30px 40px;
+        box-shadow: 0px 0px 17px 2px white;
+    }
+      h1{
+        text-align: center;
+        color: white;
+        font-size: 30px;
+        margin-bottom : 30px;
+      }
+      #labelle{
+        color: aliceblue;
+      }
+      .grounp{
+        border-bottom: 1px solid white;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        display: flex;
+      }
+      .in{
+        background: transparent;
+        border: 0;
+        outline: 0;
+        color: white;
+        flex-grow: 1;
+      }
+      .control{
+        background: transparent;
+        border: 1px solid white;
+        color: white;
+        width: 100%;
+        text-transform: uppercase;
+        padding: 10px 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      .control:hover{
+        border: 1px solid rgb(11, 62, 228);
+      }
+    </style>
+</head>
+<body>
+    <div class="wraper">
+        <form id="formlogin"> 
+            <h1>Tìm tài khoản của bạn</h1>
+
+            <label id="labelle">Vui lòng nhập email hoặc số di động để tìm kiếm tài khoản của bạn.</label> <br>
+             
+            <div class = "grounp">
+                <input type="text" class="in" placeholder="Số điện thoại hoặc email">
+               </div>
+            
+             <button class="control">NEXT</button>
+        </form>
+       </div>
+</body>
+</html>
